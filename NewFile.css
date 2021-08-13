@@ -1,0 +1,213 @@
+@charset "ISO-8859-1";
+
+
+html{
+font-size:62.5%;
+  scroll-behavior: smooth;
+}
+.topnav {
+ position:fixed;
+width:100%;
+   overflow: auto;
+  background-color:#a90536;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:inherit;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: fuchsia;
+  color:white;
+}
+* {box-sizing: border-box;}
+
+
+.topnav .search-container {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+}
+
+.topnav .search-container button {
+  float: right;
+   padding: 6px;
+  margin-top: 4px;
+  margin-right: 1px;
+  margin-left:3px;
+  background: #ddd;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+
+body {
+  margin: 0;
+  background-color:none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* container class */
+div.container{
+	        width: auto;
+            height:450px;
+            background-color:#00003c;
+            margin: 0;
+            padding: 20px;
+            }
+
+div.pic{
+	 margin: 450px;
+  border: 1px solid black;
+}
+
+/* pic align */
+aside{
+width: 100%;
+  padding-left: 55px;
+  margin-left: 95px;
+  margin-top:75px;
+  float: center;
+  background-color: #300060;
+}
+
+/* font style */
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ /* heading class */     
+div.Head{
+	text-align: Right;
+	margin: 40px;
+	padding: 10%;
+	color: Black;
+}
+
+/* Flex-Container For Side by side */
+div.side-flex{
+	display:flex;
+	flex-direction:row;
+	font-size:20px;	
+}
+
+/* Career class */
+div.Career{	
+ background-color:#00003c;
+padding:10px;
+ margin:20px;
+ color:white;
+ flex:20%;
+ overflow: scroll;
+ 
+ }
+ 
+ /* Experience class */
+ div.Experience{
+  background-color:#00003c;
+  color:white;
+  padding:10px;
+ margin:20px;
+ flex:20%;
+ overflow: scroll;
+ }
+ 
+ /* Flex-Container for column direction */
+ @media (max-width: 800px) {
+  .side-flex {
+    flex-direction: column;
+    
+  }
+}
+ /* Education class */
+ .flex-container {
+ display:flex;
+ border: 3px solid;
+ color:white;
+ width:auto;
+ padding-bottom:15px;
+background-color:#00003c;
+justify-content:center;
+}
+
+table,th, td {
+  border: 1px solid white;
+   padding:15px;   
+}
+
+table.center {
+  margin-left: auto;
+  color:white;
+  margin-right: auto;
+  border-width:auto;
+  padding:0px;
+}
+
+/* Contact class */
+.Contact{
+	background-color: lightyellow;
+  color: black;
+  border: 2px solid #400040;
+  margin-left:25%;
+  margin-right:25%;
+  margin-top:25px;
+  padding: 40px;
+}
+
+/* you-tube class */
+.youtube{
+	display:flex;
+	margin-left:25%;
+  margin-right:25%;
+  margin-top:25px;
+     margin-bottom:25px;
+}
+
+/* Scroll bar size */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey ;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #c0c0c0; 
+}
+
+
+
+/* Footer */
+.footer {
+  position:static;
+  width: 100%;
+  background-color: lightgrey;
+  color: black;
+  text-align: center;
+  text-align:center;
+  
+}
+/* Footer Text */
+p.last{
+	text-align:"center";
+}
